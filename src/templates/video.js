@@ -88,9 +88,8 @@ class VideoTemplate extends React.Component {
           image={"/assets/images/default-thumb-doc.png"}
           type={node.frontmatter.type}
         />
-        <div className="">
           <div className="container doc-content-well">
-            <div id="doc" className="doc article col-md-9 md-70">
+            <div id="docs-main" className="doc article col-md-9 md-70">
               <HeaderBody
                 title={node.frontmatter.title}
                 subtitle={node.frontmatter.subtitle}
@@ -104,7 +103,6 @@ class VideoTemplate extends React.Component {
                   <MDXRenderer>{node.body}</MDXRenderer>
                 </MDXProvider>
               </div>
-            </div>
             <div
               className="col-md-3 pio-docs-sidebar hidden-print hidden-xs hidden-sm affix-top"
               role="complementary"
