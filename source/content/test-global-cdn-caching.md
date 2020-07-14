@@ -18,7 +18,7 @@ tags: [cache, cdn]
     % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0 14801    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  HTTP/2 200
+  HTTP/2 200 
   cache-control: public, max-age=86400
   age: 65772
   ```
